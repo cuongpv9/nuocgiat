@@ -37,7 +37,7 @@
   <div class="login-box-body">
     <p class="login-box-msg"><?php echo $this->session->flashdata('msg'); ?></p>
 
-    <form action="<?php echo base_url('login_verify');?>" method="post">
+    <form action="<?php echo base_url('login_verify_account');?>" method="post">
       <div class="form-group has-feedback">
         <input type="phone" name="phone" class="form-control" placeholder="Phone">
         <span class="glyphicon glyphicon-phone form-control-feedback"></span>

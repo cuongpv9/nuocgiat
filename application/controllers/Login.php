@@ -19,13 +19,13 @@ class Login extends CI_Controller {
 			else
 			{
 				$this->session->set_flashdata('msg', 'Thông tin đăng nhập không đúng!');
-				redirect('','refresh');
+				redirect('login','refresh');
 			}
 		}
 		else
 		{
 			$this->session->set_flashdata('msg', 'Vui lòng đăng nhập để tiếp tục	');
-			redirect('','refresh');
+			redirect('login','refresh');
 		}
 	}
 

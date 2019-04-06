@@ -53,5 +53,6 @@ $route['default_controller'] = 'pages/view';
 $route['404_override'] = '';
 $route['translate_uri_dashes'] = FALSE;
 
-$route['login_verify'] = 'login/verify_account';
+$route['login_verify_account'] = 'login/verify_account';
+$route['categories_process'] = 'categories/process';
 $route['(:any)'] = 'pages/view/$1';
